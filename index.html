@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aktivite Listeleme Uygulaması</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Aktivite Listeleme Uygulaması</h1>
+  
+
+  <button id="temaBtn">Karanlık Mod</button>
+</header>
+
+<!-- ARAMA / FİLTRE -->
+<section class="arama">
+  <select id="kategoriSelect">
+    <option value="">Tüm Aktiviteler</option>
+    <option value="doga">Doğa Açık Havada</option>
+    <option value="eglence">Eğlence</option>
+    <option value="sanat">Kültür Ve Sanat </option> 
+    <option value="yemek">Yemek Ve Sohbet</option>
+  </select>
+
+  <button id="listeleBtn">Listele</button>
+</section>
+
+<!-- DURUM -->
+<p id="durum"></p>
+
+<!-- KART LİSTESİ -->
+<section id="kartListesi" class="kart-listesi"></section>
+
+<!-- DETAY -->
+<section class="detay">
+  <h2>Aktivite Detayı</h2>
+  <div id="detayIcerik">Bir aktivite seçiniz</div>
+</section>
+
+<!-- HAKKIMIZDA -->
+<section>
+  <h2>Hakkımızda</h2>
+  <p>Arkadaşlarınızla keyifli vakit geçirmeniz için size aktivite öneri listesi .</p>
+</section>
+
+<!-- İLETİŞİM -->
+<section>
+  <h2>İletişim</h2>
+  <p>Email:Aktivite@bul.com </p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
